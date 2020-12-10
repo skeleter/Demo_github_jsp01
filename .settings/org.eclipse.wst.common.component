@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="jsp12-2+3+c3p0">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="jsp12-2-3c3p0"/>
+        <property name="java-output-path" value="/jsp12-2+3+c3p0/build/classes"/>
+    </wb-module>
+</project-modules>

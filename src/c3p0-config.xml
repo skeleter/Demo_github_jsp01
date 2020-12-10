@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+  <default-config>
+  	<!-- jdbcUrl : 连接资源 -->
+    <property name="jdbcUrl">jdbc:mysql://localhost:3306/mydababas?useSSL=false</property>
+    <property name="user">root</property>
+    <property name="password">root</property>
+    <!-- 驱动名称  -->
+    <property name="driverClass">com.mysql.jdbc.Driver</property>
+    <property name="initialPoolSize">10</property>
+    <!-- 最大的空闲数量  -->
+    <property name="maxIdleTime">30</property>
+    <!-- 最大的connection数量 ：100  -->
+    <property name="maxPoolSize">100</property>
+    <property name="minPoolSize">10</property>
+    <property name="maxStatements">200</property>
+  </default-config>
+</c3p0-config>
+
